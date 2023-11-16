@@ -6,16 +6,19 @@
   "main": "test.js",
   "scripts": {
     "test": "node test.js",
-    "commit": "cz"
+    "release": "standard-version && git push --follow-tags origin main",
+    "commit": "git-cz"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "semantic-release": "^19.0.5"
+    "semantic-release": "^19.0.5",
+    "cz-conventional-changelog": "^3.3.0"
   },
   "devDependencies": {
-    "cz-conventional-changelog": "^3.3.0"
+    "commitizen": "^4.3.0",
+    "standard-version": "^9.5.0"
   },
   "config": {
     "commitizen": {
