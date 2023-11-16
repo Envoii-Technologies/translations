@@ -1,7 +1,7 @@
 {
   "name": "translations",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Centralized Multilingual Translation Repository",
   "main": "test.js",
   "scripts": {
