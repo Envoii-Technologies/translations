@@ -55,6 +55,6 @@ To update the submodule to the latest version:
 3. **Reporting Issues:**
 - Use the GitHub Issues feature to report any discrepancies or suggestions.
 
-4. Versioning
+4. **Versioning:**
 - This repository follows Semantic Versioning (SemVer).
 - Ensure version numbers are updated appropriately with significant changes.
