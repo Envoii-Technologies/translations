@@ -26,8 +26,13 @@ async function testTranslations() {
     const translationFiles = fs.readdirSync(translationsPath);
 
     for (const file of translationFiles) {
+      if(file.includes("index.js"))
+      {
+        return false;
+      }
       const filePath = path.join(translationsPath, file);
       const fileURL = new URL(`file://${filePath}`);
+
       await validateTranslations(fileURL.href);
     }
   }

@@ -31,7 +31,7 @@ translations/
 To include this repository in your project as a submodule:
 
 **1. Add the Submodule:**
-`git submodule add [URL-of-this-repository] path/to/submodule`
+`git submodule add https://github.com/Envoii-Technologies/translations.git`
 
 **2. Initialize and Update the Submodule:**
 `git submodule update --init --recursive`
