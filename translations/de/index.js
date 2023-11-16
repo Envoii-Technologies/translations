@@ -3,6 +3,6 @@ import MediaPage from './MediaPage';
 
 export default
 {
-    ...MainMenu,
-    ...MediaPage,
+    MainMenu: {...MainMenu},
+    MediaPage: {...MediaPage},
 }
