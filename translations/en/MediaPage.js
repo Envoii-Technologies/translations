@@ -13,8 +13,8 @@ export default {
     },
     fileRow: {
         preview: "Preview",
-        title: "titel",
-        type: "type",
+        title: "Title",
+        type: "Type",
         updatedAt: "Updated",
         menu: {
             edit: "Edit",
