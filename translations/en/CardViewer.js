@@ -7,6 +7,7 @@ export default {
         cancelButton: "Cancel",
     },
     step: "Step",
+    of: "of",
     buttons:
     {
         finish: "Finish",
